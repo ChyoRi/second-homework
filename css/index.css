@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    position: relative;
+    width: 1200px;
+    height: 970px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.wrap input{
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin: 100px auto;
+    color : #59b972;
+    border: 1px solid #000;
+}
+
+.wrap input::placeholder{
+    margin-left: 10px;
+    color: #59b972;
+}
+
+.wrap button{
+    position: absolute;
+    width: 50px;
+    top: 11%;
+    right: 34%;
+    background-color: #59b972;
+    color : #fff;
+}
+
+.wrap .list{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
